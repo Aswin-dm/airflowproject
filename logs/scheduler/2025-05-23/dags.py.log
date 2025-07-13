@@ -1,0 +1,1307 @@
+[2025-05-23T16:31:24.280+0000] {processor.py:161} INFO - Started process (PID=5143) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:31:24.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:31:24.284+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:24.284+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:24.307+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:24.304+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:31:24.308+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:24.343+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.073 seconds
+[2025-05-23T16:31:28.413+0000] {processor.py:161} INFO - Started process (PID=5144) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:31:28.414+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:31:28.417+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:28.417+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:28.444+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:28.442+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:31:28.445+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:28.478+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.073 seconds
+[2025-05-23T16:31:30.486+0000] {processor.py:161} INFO - Started process (PID=5145) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:31:30.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:31:30.490+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:30.489+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:30.511+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:30.509+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:31:30.512+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:30.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.067 seconds
+[2025-05-23T16:31:31.254+0000] {processor.py:161} INFO - Started process (PID=5152) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:31:31.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:31:31.258+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:31.258+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:31.279+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:31.278+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:31:31.280+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:31.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.061 seconds
+[2025-05-23T16:31:32.550+0000] {processor.py:161} INFO - Started process (PID=5165) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:31:32.551+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:31:32.554+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:32.554+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:32.580+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:32.577+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:31:32.581+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:32.610+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.069 seconds
+[2025-05-23T16:31:38.646+0000] {processor.py:161} INFO - Started process (PID=5198) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:31:38.647+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:31:38.649+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:38.649+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:38.670+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:38.668+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:31:38.671+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:38.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.066 seconds
+[2025-05-23T16:31:40.737+0000] {processor.py:161} INFO - Started process (PID=5199) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:31:40.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:31:40.741+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:40.741+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:40.763+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:40.761+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:31:40.764+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:40.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.069 seconds
+[2025-05-23T16:31:43.820+0000] {processor.py:161} INFO - Started process (PID=5206) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:31:43.823+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:31:43.825+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:43.824+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:43.848+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:43.846+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:31:43.849+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:43.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.067 seconds
+[2025-05-23T16:31:46.981+0000] {processor.py:161} INFO - Started process (PID=5209) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:31:46.983+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:31:46.986+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:46.985+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:47.007+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:47.005+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:31:47.008+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:47.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.068 seconds
+[2025-05-23T16:31:49.040+0000] {processor.py:161} INFO - Started process (PID=5210) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:31:49.042+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:31:49.045+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:49.045+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:49.072+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:49.069+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:31:49.073+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:49.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.076 seconds
+[2025-05-23T16:31:53.184+0000] {processor.py:161} INFO - Started process (PID=5211) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:31:53.186+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:31:53.188+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:53.188+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:53.209+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:53.208+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:31:53.211+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:53.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.067 seconds
+[2025-05-23T16:31:56.255+0000] {processor.py:161} INFO - Started process (PID=5212) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:31:56.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:31:56.259+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:56.259+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:56.283+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:31:56.281+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:31:56.284+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:31:56.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.068 seconds
+[2025-05-23T16:32:03.086+0000] {processor.py:161} INFO - Started process (PID=5230) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:32:03.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:32:03.091+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:03.090+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:03.114+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:03.112+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:32:03.115+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:03.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.067 seconds
+[2025-05-23T16:32:18.177+0000] {processor.py:161} INFO - Started process (PID=5272) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:32:18.178+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:32:18.181+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:18.180+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:18.205+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:18.204+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:32:18.206+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:18.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.068 seconds
+[2025-05-23T16:32:21.240+0000] {processor.py:161} INFO - Started process (PID=5273) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:32:21.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:32:21.244+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:21.244+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:21.264+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:21.262+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:32:21.265+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:21.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.064 seconds
+[2025-05-23T16:32:25.376+0000] {processor.py:161} INFO - Started process (PID=5274) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:32:25.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:32:25.381+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:25.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:25.407+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:25.406+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:32:25.408+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:25.441+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.073 seconds
+[2025-05-23T16:32:28.436+0000] {processor.py:161} INFO - Started process (PID=5275) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:32:28.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:32:28.440+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:28.439+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:28.463+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:28.461+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:32:28.464+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:28.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.065 seconds
+[2025-05-23T16:32:29.551+0000] {processor.py:161} INFO - Started process (PID=5276) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:32:29.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:32:29.557+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:29.556+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:29.579+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:29.577+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 9
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:32:29.580+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:29.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.068 seconds
+[2025-05-23T16:32:35.454+0000] {processor.py:161} INFO - Started process (PID=5307) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:32:35.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:32:35.459+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:35.458+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:35.491+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:35.489+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 10
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:32:35.493+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:35.572+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.127 seconds
+[2025-05-23T16:32:36.537+0000] {processor.py:161} INFO - Started process (PID=5316) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:32:36.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:32:36.541+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:36.541+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:36.563+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:36.561+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:32:36.564+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:36.597+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.071 seconds
+[2025-05-23T16:32:41.723+0000] {processor.py:161} INFO - Started process (PID=5329) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:32:41.725+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:32:41.728+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:41.727+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:41.750+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:41.748+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 8
+    feom=
+         ^
+SyntaxError: invalid syntax
+[2025-05-23T16:32:41.751+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:41.784+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.070 seconds
+[2025-05-23T16:32:43.803+0000] {processor.py:161} INFO - Started process (PID=5336) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:32:43.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:32:43.807+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:43.807+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:43.831+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:43.830+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:32:43.833+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:43.861+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.069 seconds
+[2025-05-23T16:32:50.994+0000] {processor.py:161} INFO - Started process (PID=5339) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:32:50.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:32:50.999+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:50.999+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:51.021+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:51.019+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 8
+    from datetime
+                 ^
+SyntaxError: invalid syntax
+[2025-05-23T16:32:51.022+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:51.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.069 seconds
+[2025-05-23T16:32:56.080+0000] {processor.py:161} INFO - Started process (PID=5340) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:32:56.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:32:56.085+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:56.084+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:56.112+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:56.110+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 8
+    from datetime import
+                        ^
+SyntaxError: invalid syntax
+[2025-05-23T16:32:56.113+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:56.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.076 seconds
+[2025-05-23T16:32:58.197+0000] {processor.py:161} INFO - Started process (PID=5341) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:32:58.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:32:58.203+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:58.203+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:58.223+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:32:58.222+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:32:58.224+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:32:58.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.068 seconds
+[2025-05-23T16:33:02.296+0000] {processor.py:161} INFO - Started process (PID=5342) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:33:02.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:33:02.301+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:02.300+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:02.325+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:02.323+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:33:02.326+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:02.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.078 seconds
+[2025-05-23T16:33:11.131+0000] {processor.py:161} INFO - Started process (PID=5393) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:33:11.133+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:33:11.137+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:11.136+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:11.158+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:11.155+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:33:11.159+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:11.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.069 seconds
+[2025-05-23T16:33:13.205+0000] {processor.py:161} INFO - Started process (PID=5401) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:33:13.206+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:33:13.208+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:13.208+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:13.230+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:13.229+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:33:13.231+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:13.259+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.062 seconds
+[2025-05-23T16:33:38.832+0000] {processor.py:161} INFO - Started process (PID=5446) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:33:38.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:33:38.836+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:38.835+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:38.858+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:38.856+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:33:38.859+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:38.892+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.070 seconds
+[2025-05-23T16:33:46.500+0000] {processor.py:161} INFO - Started process (PID=5461) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:33:46.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:33:46.505+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:46.504+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:46.534+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:46.531+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:33:46.536+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:46.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.081 seconds
+[2025-05-23T16:33:47.543+0000] {processor.py:161} INFO - Started process (PID=5462) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:33:47.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:33:47.549+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:47.548+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:47.573+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:47.571+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:33:47.574+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:47.604+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.069 seconds
+[2025-05-23T16:33:49.659+0000] {processor.py:161} INFO - Started process (PID=5463) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:33:49.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:33:49.663+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:49.663+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:49.682+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:49.681+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:33:49.683+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:49.708+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.057 seconds
+[2025-05-23T16:33:50.795+0000] {processor.py:161} INFO - Started process (PID=5464) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:33:50.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:33:50.801+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:50.800+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:50.828+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:50.826+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:33:50.830+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:50.865+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.080 seconds
+[2025-05-23T16:33:51.950+0000] {processor.py:161} INFO - Started process (PID=5467) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:33:51.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:33:51.955+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:51.954+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:51.975+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:51.974+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:33:51.976+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:52.007+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.064 seconds
+[2025-05-23T16:33:56.114+0000] {processor.py:161} INFO - Started process (PID=5468) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:33:56.116+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:33:56.119+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:56.118+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:56.139+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:56.137+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:33:56.140+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:56.171+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.066 seconds
+[2025-05-23T16:33:59.179+0000] {processor.py:161} INFO - Started process (PID=5469) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:33:59.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:33:59.183+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:59.183+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:59.205+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:33:59.204+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:33:59.207+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:33:59.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.069 seconds
+[2025-05-23T16:34:04.326+0000] {processor.py:161} INFO - Started process (PID=5470) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:34:04.327+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:34:04.330+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:04.329+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:04.352+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:04.350+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:34:04.353+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:04.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.071 seconds
+[2025-05-23T16:34:06.638+0000] {processor.py:161} INFO - Started process (PID=5494) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:34:06.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:34:06.642+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:06.641+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:06.665+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:06.664+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:34:06.666+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:06.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.066 seconds
+[2025-05-23T16:34:08.890+0000] {processor.py:161} INFO - Started process (PID=5509) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:34:08.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:34:08.894+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:08.894+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:08.917+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:08.915+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:34:08.918+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:08.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.062 seconds
+[2025-05-23T16:34:14.484+0000] {processor.py:161} INFO - Started process (PID=5529) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:34:14.486+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:34:14.489+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:14.488+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:14.515+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:14.513+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:34:14.516+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:14.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.076 seconds
+[2025-05-23T16:34:19.594+0000] {processor.py:161} INFO - Started process (PID=5530) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:34:19.596+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:34:19.600+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:19.599+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:19.623+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:19.621+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:34:19.624+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:19.654+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.068 seconds
+[2025-05-23T16:34:23.562+0000] {processor.py:161} INFO - Started process (PID=5533) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:34:23.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:34:23.567+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:23.566+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:23.591+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:23.589+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:34:23.592+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:23.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.069 seconds
+[2025-05-23T16:34:27.626+0000] {processor.py:161} INFO - Started process (PID=5534) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:34:27.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:34:27.629+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:27.629+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:27.647+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:27.645+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:34:27.648+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:27.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.057 seconds
+[2025-05-23T16:34:32.774+0000] {processor.py:161} INFO - Started process (PID=5535) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:34:32.775+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:34:32.779+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:32.778+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:32.800+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:32.799+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:34:32.801+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:32.832+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.066 seconds
+[2025-05-23T16:34:35.430+0000] {processor.py:161} INFO - Started process (PID=5542) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:34:35.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:34:35.435+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:35.434+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:35.460+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:35.457+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:34:35.461+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:35.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.072 seconds
+[2025-05-23T16:34:38.699+0000] {processor.py:161} INFO - Started process (PID=5567) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:34:38.700+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:34:38.704+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:38.703+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:38.726+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:38.724+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:34:38.727+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:38.762+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.074 seconds
+[2025-05-23T16:34:46.946+0000] {processor.py:161} INFO - Started process (PID=5594) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:34:46.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:34:46.950+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:46.949+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:46.973+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:46.971+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:34:46.974+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:47.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.062 seconds
+[2025-05-23T16:34:50.024+0000] {processor.py:161} INFO - Started process (PID=5595) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:34:50.025+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:34:50.028+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:50.028+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:50.046+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:50.044+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:34:50.047+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:50.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.058 seconds
+[2025-05-23T16:34:53.122+0000] {processor.py:161} INFO - Started process (PID=5596) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:34:53.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:34:53.127+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:53.126+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:53.147+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:53.146+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:34:53.149+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:53.179+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.065 seconds
+[2025-05-23T16:34:58.025+0000] {processor.py:161} INFO - Started process (PID=5599) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:34:58.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:34:58.031+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:58.030+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:58.057+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:34:58.054+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:34:58.058+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:34:58.096+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.082 seconds
+[2025-05-23T16:35:28.263+0000] {processor.py:161} INFO - Started process (PID=5658) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:35:28.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:35:28.268+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:28.268+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:28.299+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:28.296+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:35:28.300+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:28.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.088 seconds
+[2025-05-23T16:35:30.315+0000] {processor.py:161} INFO - Started process (PID=5659) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:35:30.317+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:35:30.320+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:30.320+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:30.343+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:30.342+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:35:30.345+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:30.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.072 seconds
+[2025-05-23T16:35:35.479+0000] {processor.py:161} INFO - Started process (PID=5660) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:35:35.481+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:35:35.484+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:35.484+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:35.505+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:35.503+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:35:35.506+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:35.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.069 seconds
+[2025-05-23T16:35:37.032+0000] {processor.py:161} INFO - Started process (PID=5677) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:35:37.033+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:35:37.036+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:37.035+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:37.059+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:37.057+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:35:37.060+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:37.090+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.066 seconds
+[2025-05-23T16:35:42.745+0000] {processor.py:161} INFO - Started process (PID=5712) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:35:42.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:35:42.749+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:42.749+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:42.777+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:42.775+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:35:42.778+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:42.811+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.076 seconds
+[2025-05-23T16:35:45.860+0000] {processor.py:161} INFO - Started process (PID=5719) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:35:45.861+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:35:45.864+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:45.864+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:45.896+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:45.894+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:35:45.897+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:45.933+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.082 seconds
+[2025-05-23T16:35:50.968+0000] {processor.py:161} INFO - Started process (PID=5720) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:35:50.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:35:50.974+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:50.973+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:51.000+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:50.998+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:35:51.001+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:51.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.076 seconds
+[2025-05-23T16:35:55.085+0000] {processor.py:161} INFO - Started process (PID=5721) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:35:55.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:35:55.090+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:55.089+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:55.108+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:55.107+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:35:55.109+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:55.137+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.062 seconds
+[2025-05-23T16:35:57.154+0000] {processor.py:161} INFO - Started process (PID=5722) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:35:57.155+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:35:57.158+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:57.158+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:57.178+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:57.176+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:35:57.179+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:57.208+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.064 seconds
+[2025-05-23T16:35:59.297+0000] {processor.py:161} INFO - Started process (PID=5725) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:35:59.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:35:59.300+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:59.300+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:59.321+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:35:59.320+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:35:59.322+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:35:59.351+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.064 seconds
+[2025-05-23T16:36:03.363+0000] {processor.py:161} INFO - Started process (PID=5726) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:36:03.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:36:03.368+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:03.367+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:03.386+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:03.385+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:36:03.387+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:03.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.064 seconds
+[2025-05-23T16:36:06.498+0000] {processor.py:161} INFO - Started process (PID=5727) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:36:06.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:36:06.505+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:06.504+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:06.531+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:06.530+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:36:06.532+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:06.565+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.082 seconds
+[2025-05-23T16:36:08.109+0000] {processor.py:161} INFO - Started process (PID=5745) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:36:08.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:36:08.114+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:08.113+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:08.141+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:08.139+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:36:08.142+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:08.171+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.071 seconds
+[2025-05-23T16:36:10.292+0000] {processor.py:161} INFO - Started process (PID=5759) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:36:10.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:36:10.296+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:10.295+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:10.321+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:10.320+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:36:10.322+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:10.352+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.069 seconds
+[2025-05-23T16:36:13.188+0000] {processor.py:161} INFO - Started process (PID=5780) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:36:13.190+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:36:13.193+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:13.192+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:13.222+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:13.220+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:36:13.223+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:13.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.075 seconds
+[2025-05-23T16:36:19.350+0000] {processor.py:161} INFO - Started process (PID=5787) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:36:19.352+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:36:19.355+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:19.354+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:19.376+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:19.373+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:36:19.377+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:19.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.069 seconds
+[2025-05-23T16:36:20.407+0000] {processor.py:161} INFO - Started process (PID=5788) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:36:20.409+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:36:20.414+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:20.413+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:20.436+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:20.434+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:36:20.437+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:20.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.074 seconds
+[2025-05-23T16:36:24.623+0000] {processor.py:161} INFO - Started process (PID=5789) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:36:24.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:36:24.627+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:24.627+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:24.655+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:24.653+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:36:24.656+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:24.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.075 seconds
+[2025-05-23T16:36:26.691+0000] {processor.py:161} INFO - Started process (PID=5790) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:36:26.692+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:36:26.695+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:26.695+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:26.723+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:26.720+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:36:26.724+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:26.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.074 seconds
+[2025-05-23T16:36:29.856+0000] {processor.py:161} INFO - Started process (PID=5793) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:36:29.858+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:36:29.860+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:29.860+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:29.880+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:29.878+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:36:29.881+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:29.911+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.065 seconds
+[2025-05-23T16:36:34.939+0000] {processor.py:161} INFO - Started process (PID=5794) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:36:34.940+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:36:34.943+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:34.943+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:34.964+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:34.962+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:36:34.965+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:34.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.070 seconds
+[2025-05-23T16:36:38.041+0000] {processor.py:161} INFO - Started process (PID=5806) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:36:38.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:36:38.045+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:38.045+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:38.073+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:38.071+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:36:38.074+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:38.104+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.071 seconds
+[2025-05-23T16:36:42.257+0000] {processor.py:161} INFO - Started process (PID=5838) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:36:42.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:36:42.261+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:42.260+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:42.286+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:36:42.284+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:36:42.288+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:36:42.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.072 seconds
+[2025-05-23T16:37:12.377+0000] {processor.py:161} INFO - Started process (PID=5895) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:37:12.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:37:12.381+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:37:12.381+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:37:12.404+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:37:12.403+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:37:12.405+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:37:12.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.063 seconds
+[2025-05-23T16:37:42.566+0000] {processor.py:161} INFO - Started process (PID=5953) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:37:42.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:37:42.571+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:37:42.570+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:37:42.595+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:37:42.594+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 11
+    default args ={
+            ^^^^
+SyntaxError: invalid syntax
+[2025-05-23T16:37:42.596+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:37:42.627+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.068 seconds
+[2025-05-23T16:38:06.911+0000] {processor.py:161} INFO - Started process (PID=5973) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:38:06.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:38:06.916+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:38:06.915+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:38:06.942+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:38:06.939+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 22
+    'fetch_and_store_amazon_books',
+IndentationError: unexpected indent
+[2025-05-23T16:38:06.943+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:38:06.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.079 seconds
+[2025-05-23T16:38:37.754+0000] {processor.py:161} INFO - Started process (PID=6033) to work on /opt/airflow/dags/dags.py
+[2025-05-23T16:38:37.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-05-23T16:38:37.759+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:38:37.758+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-05-23T16:38:37.782+0000] {logging_mixin.py:188} INFO - [2025-05-23T16:38:37.780+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dags.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dags.py", line 22
+    'fetch_and_store_amazon_books',
+IndentationError: unexpected indent
+[2025-05-23T16:38:37.784+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dags.py
+[2025-05-23T16:38:37.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.073 seconds

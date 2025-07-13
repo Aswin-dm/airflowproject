@@ -1,0 +1,89 @@
+[2025-07-04T06:13:44.327+0000] {processor.py:161} INFO - Started process (PID=71) to work on /opt/airflow/dags/dags.py
+[2025-07-04T06:13:44.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-04T06:13:44.333+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:13:44.332+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-04T06:13:46.531+0000] {processor.py:840} INFO - DAG(s) 'fetch_and_store_amazon_books' retrieved from /opt/airflow/dags/dags.py
+[2025-07-04T06:14:06.314+0000] {processor.py:161} INFO - Started process (PID=56) to work on /opt/airflow/dags/dags.py
+[2025-07-04T06:14:06.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-04T06:14:06.317+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:14:06.317+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-04T06:14:07.103+0000] {processor.py:840} INFO - DAG(s) 'fetch_and_store_amazon_books' retrieved from /opt/airflow/dags/dags.py
+[2025-07-04T06:14:07.261+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:14:07.261+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-04T06:14:07.284+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:14:07.284+0000] {dag.py:3954} INFO - Setting next_dagrun for fetch_and_store_amazon_books to 2025-06-11 00:00:00+00:00, run_after=2025-06-12 00:00:00+00:00
+[2025-07-04T06:14:07.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 1.000 seconds
+[2025-07-04T06:14:37.441+0000] {processor.py:161} INFO - Started process (PID=126) to work on /opt/airflow/dags/dags.py
+[2025-07-04T06:14:37.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-04T06:14:37.444+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:14:37.444+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-04T06:14:38.080+0000] {processor.py:840} INFO - DAG(s) 'fetch_and_store_amazon_books' retrieved from /opt/airflow/dags/dags.py
+[2025-07-04T06:14:38.098+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:14:38.098+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-04T06:14:38.139+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.704 seconds
+[2025-07-04T06:15:09.000+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/dags.py
+[2025-07-04T06:15:09.002+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-04T06:15:09.007+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:15:09.007+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-04T06:15:09.770+0000] {processor.py:840} INFO - DAG(s) 'fetch_and_store_amazon_books' retrieved from /opt/airflow/dags/dags.py
+[2025-07-04T06:15:09.791+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:15:09.790+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-04T06:15:09.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.850 seconds
+[2025-07-04T06:15:40.609+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/dags.py
+[2025-07-04T06:15:40.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-04T06:15:40.611+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:15:40.611+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-04T06:15:41.199+0000] {processor.py:840} INFO - DAG(s) 'fetch_and_store_amazon_books' retrieved from /opt/airflow/dags/dags.py
+[2025-07-04T06:15:41.216+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:15:41.216+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-04T06:15:41.251+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.647 seconds
+[2025-07-04T06:16:11.364+0000] {processor.py:161} INFO - Started process (PID=321) to work on /opt/airflow/dags/dags.py
+[2025-07-04T06:16:11.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-04T06:16:11.366+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:16:11.366+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-04T06:16:11.886+0000] {processor.py:840} INFO - DAG(s) 'fetch_and_store_amazon_books' retrieved from /opt/airflow/dags/dags.py
+[2025-07-04T06:16:11.903+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:16:11.903+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-04T06:16:11.937+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.578 seconds
+[2025-07-04T06:16:42.037+0000] {processor.py:161} INFO - Started process (PID=386) to work on /opt/airflow/dags/dags.py
+[2025-07-04T06:16:42.038+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-04T06:16:42.040+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:16:42.039+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-04T06:16:42.555+0000] {processor.py:840} INFO - DAG(s) 'fetch_and_store_amazon_books' retrieved from /opt/airflow/dags/dags.py
+[2025-07-04T06:16:42.571+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:16:42.570+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-04T06:16:42.600+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.568 seconds
+[2025-07-04T06:17:13.510+0000] {processor.py:161} INFO - Started process (PID=450) to work on /opt/airflow/dags/dags.py
+[2025-07-04T06:17:13.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-04T06:17:13.513+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:17:13.512+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-04T06:17:14.013+0000] {processor.py:840} INFO - DAG(s) 'fetch_and_store_amazon_books' retrieved from /opt/airflow/dags/dags.py
+[2025-07-04T06:17:14.029+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:17:14.028+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-04T06:17:14.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.554 seconds
+[2025-07-04T06:17:44.167+0000] {processor.py:161} INFO - Started process (PID=514) to work on /opt/airflow/dags/dags.py
+[2025-07-04T06:17:44.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-04T06:17:44.170+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:17:44.170+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-04T06:17:44.916+0000] {processor.py:840} INFO - DAG(s) 'fetch_and_store_amazon_books' retrieved from /opt/airflow/dags/dags.py
+[2025-07-04T06:17:44.935+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:17:44.934+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-04T06:17:44.976+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.818 seconds
+[2025-07-04T06:18:15.040+0000] {processor.py:161} INFO - Started process (PID=574) to work on /opt/airflow/dags/dags.py
+[2025-07-04T06:18:15.041+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-04T06:18:15.043+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:18:15.043+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-04T06:18:15.561+0000] {processor.py:840} INFO - DAG(s) 'fetch_and_store_amazon_books' retrieved from /opt/airflow/dags/dags.py
+[2025-07-04T06:18:15.577+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:18:15.576+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-04T06:18:15.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.577 seconds
+[2025-07-04T06:18:45.756+0000] {processor.py:161} INFO - Started process (PID=630) to work on /opt/airflow/dags/dags.py
+[2025-07-04T06:18:45.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-04T06:18:45.760+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:18:45.760+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-04T06:18:46.483+0000] {processor.py:840} INFO - DAG(s) 'fetch_and_store_amazon_books' retrieved from /opt/airflow/dags/dags.py
+[2025-07-04T06:18:46.505+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:18:46.504+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-04T06:18:46.548+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.800 seconds
+[2025-07-04T06:19:16.902+0000] {processor.py:161} INFO - Started process (PID=690) to work on /opt/airflow/dags/dags.py
+[2025-07-04T06:19:16.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-04T06:19:16.905+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:19:16.905+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-04T06:19:17.441+0000] {processor.py:840} INFO - DAG(s) 'fetch_and_store_amazon_books' retrieved from /opt/airflow/dags/dags.py
+[2025-07-04T06:19:17.460+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:19:17.460+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-04T06:19:17.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.600 seconds
+[2025-07-04T06:19:47.604+0000] {processor.py:161} INFO - Started process (PID=755) to work on /opt/airflow/dags/dags.py
+[2025-07-04T06:19:47.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-04T06:19:47.606+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:19:47.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-04T06:19:48.147+0000] {processor.py:840} INFO - DAG(s) 'fetch_and_store_amazon_books' retrieved from /opt/airflow/dags/dags.py
+[2025-07-04T06:19:48.163+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:19:48.162+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-04T06:19:48.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.598 seconds
+[2025-07-04T06:20:18.296+0000] {processor.py:161} INFO - Started process (PID=819) to work on /opt/airflow/dags/dags.py
+[2025-07-04T06:20:18.297+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-04T06:20:18.299+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:20:18.298+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-04T06:20:18.949+0000] {processor.py:840} INFO - DAG(s) 'fetch_and_store_amazon_books' retrieved from /opt/airflow/dags/dags.py
+[2025-07-04T06:20:18.968+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:20:18.966+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-04T06:20:19.006+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.718 seconds
+[2025-07-04T06:20:49.435+0000] {processor.py:161} INFO - Started process (PID=884) to work on /opt/airflow/dags/dags.py
+[2025-07-04T06:20:49.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2025-07-04T06:20:49.438+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:20:49.437+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2025-07-04T06:20:49.967+0000] {processor.py:840} INFO - DAG(s) 'fetch_and_store_amazon_books' retrieved from /opt/airflow/dags/dags.py
+[2025-07-04T06:20:49.982+0000] {logging_mixin.py:188} INFO - [2025-07-04T06:20:49.982+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-07-04T06:20:50.016+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.587 seconds
